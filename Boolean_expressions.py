@@ -8,13 +8,13 @@ print(num)
 # Write a boolean expression that represents whether or not num is equal to 12.
 
 
-num == 12
+print(num == 12)
 
 # Write a boolean expression that represents whether num is either less than 5 or greater than 15.
 # (Note that in programming, we always assume "strictly greater/less than" unless otherwise specified).
 # Do not print out the result; just write the expression!
 
-num < 5 or num > 15
+print(num < 5 or num > 15)
 
 # Define a function is_odd_stat() that expects a single whole number as a argument.
 # This function shold return a boolean value (True or False) representing whether or not the argument is between 3 and 18 (both inclusive) while also being an odd number.
@@ -28,7 +28,7 @@ def is_odd_stat(n):
 # Call your is_odd_stat() function, passing in your random number as an argument to see if it works.
 
 
-is_odd_stat(num)
+print(is_odd_stat(num))
 
 # You can and should re-run the above cells multiple times to confirm that the logic holds for different random numbers!
 
@@ -41,12 +41,12 @@ word = "Butterfly"
 # Write a boolean expression that represents if the inputted word has more than 8 letters.
 
 
-len(word)>8
+print(len(word)>8)
 
 # Use the islower() string method to check if the inputted word was entered with all lower-case letters.
 
 
-word.islower()
+print(word.islower())
 
 # Define a function has_i_or_n() that expects a string as an argument.
 # This function should return a boolean value representing whether or not the word starts with the letter i or ends with the letter n.
@@ -62,7 +62,7 @@ def has_i_or_n(str):
 
 # Call your has_i_or_n() function, passing your inputted word as an argument to see if it works!
 
-has_i_or_n(word)
+print(has_i_or_n(word))
 
 # Extra optional challenge: Define a function de_morgan() that takes in two boolean values (P and Q) and returns whether the De Morgan laws hold for those two values. That is:
 
